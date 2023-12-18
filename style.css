@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: "Rowdies", sans-serif;
+  font-family: 'Rowdies', sans-serif;
 }
 
 html {
@@ -127,7 +127,7 @@ html {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-size: 30rem;
   width: 100%;
   text-align: center;
@@ -148,7 +148,7 @@ html {
 
 .logo span:nth-child(2) {
   font-size: 5rem;
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-weight: bold;
   color: #29a587;
 }
@@ -170,7 +170,7 @@ html {
 }
 
 .section-border::before {
-  content: "";
+  content: '';
   width: 3rem;
   height: 3rem;
   border: 0.2rem solid #bbb;
@@ -182,7 +182,7 @@ html {
 }
 
 .section-border::after {
-  content: "";
+  content: '';
   width: 3rem;
   height: 3rem;
   border: 0.2rem solid #bbb;
@@ -230,7 +230,7 @@ html {
 }
 
 .prof span {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-size: 3rem;
   font-weight: bold;
   text-transform: capitalize;
@@ -239,7 +239,7 @@ html {
 
 .about {
   width: 60rem;
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-size: 2.5rem;
   line-height: 1;
   color: #a9abae;
@@ -274,7 +274,7 @@ html {
 }
 
 .btn::before {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   background-color: #29a587;
@@ -293,7 +293,7 @@ html {
 }
 
 .cv-btn::after {
-  content: "";
+  content: '';
   width: 5rem;
   height: 0.2rem;
   background-color: #bbb;
@@ -395,7 +395,7 @@ html {
 }
 
 .sub-heading span {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-size: 3.5rem;
   text-transform: capitalize;
   color: #fff;
@@ -439,7 +439,7 @@ html {
 }
 
 .skills-card p {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-size: 2rem;
   color: #bbb;
   margin-bottom: 4rem;
@@ -456,7 +456,7 @@ html {
 }
 
 .skills-card-progress::before {
-  content: "";
+  content: '';
   height: 0.2rem;
   background-color: #29a587;
   position: absolute;
@@ -465,7 +465,7 @@ html {
 }
 
 .skills-card-progress::after {
-  content: "";
+  content: '';
   height: 0.2rem;
   background-color: #777;
   position: absolute;
@@ -631,7 +631,7 @@ html {
 }
 
 .project-desc {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-size: 2.2rem;
   color: #ccc;
 }
@@ -670,4 +670,159 @@ html {
   margin: 0;
 }
 /* End of Projects */
+
+/* Contact */
+.contact {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .section-border {
+  position: absolute;
+  left: 20rem;
+  top: 30%;
+}
+
+.contact-content {
+  width: 120rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-left div {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.contact-left i {
+  width: 5rem;
+  height: 5rem;
+  background-color: #1d222a;
+  border: 0.2rem solid #bbb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  margin-right: 9rem;
+  position: relative;
+}
+
+.contact-left i::after {
+  content: '';
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #bbb;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -4rem;
+}
+
+.contact-info {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info span {
+  width: 100%;
+}
+
+.contact-info span:nth-child(1) {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info span:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #777;
+}
+
+.contact-right {
+  width: 60rem;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-groups {
+  display: flex;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.input-group label i {
+  font-size: 1.2rem;
+  color: #29a587;
+}
+
+.input-group input,
+textarea {
+  height: 6rem;
+  margin: 0 3rem 5rem 0;
+  background-color: #1d222a;
+  border: 0.2rem solid #777;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #fff;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.input-groups input {
+  width: 35rem;
+}
+
+.input-group textarea {
+  height: 12rem;
+  margin-bottom: 2rem;
+  resize: none;
+}
+
+.contact-btn {
+  width: calc(100% - 3rem);
+  height: 5rem;
+  background-color: #29a587;
+  border: 0.2rem solid #bbb;
+  border-radius: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+/* End of Contact */
+
 /* End of Container */
